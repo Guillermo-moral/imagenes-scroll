@@ -1,0 +1,29 @@
+*{
+	margin:0;
+	padding:0;
+}
+.contenedor{
+	width:85%;
+	margin:100px auto 50px;
+	display:grid;
+	grid-template-columns:auto auto auto;
+	grid-gap:10px;
+}
+.contenedor img{
+	display:block;
+	width:100%;
+}
+
+@media screen and (max-width:800px){
+	.contenedor{
+		width:90%;
+		grid-template-columns:auto auto;
+	}
+}
+
+@media screen and (max-width:500px){
+	.contenedor{
+		grid-template-columns:auto;
+	}
+}
+
